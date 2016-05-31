@@ -47,5 +47,6 @@ def step_impl(context):
         datepicker_to = context.browser.find_element_by_xpath("//input[@id='to']")
         value_to = datepicker_to.get_attribute('value')
         assert(value_from == '06/17/2016')
-        assert(value_to == '08/31/2016')
+        assert(value_to == '08/17/2016')
         
+
