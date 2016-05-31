@@ -1,7 +1,0 @@
-Feature: behave demo for Mahara login
-
-  Scenario: user can login and change max tags value
-    Given username and password
-     and user inputs valid username and password 
-     When  user changes max tags value
-     Then user logouts
